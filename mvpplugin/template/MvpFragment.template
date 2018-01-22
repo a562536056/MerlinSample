@@ -1,0 +1,102 @@
+package ${applicaitionId}.${packageName}.fragment;
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import ${applicaitionId}.mvpbase.BaseMvpFragment;
+import ${applicaitionId}.${packageName}.contract.${functionName}Contract;
+import ${applicaitionId}.${packageName}.presenter.${functionName}Presenter;
+
+/**
+ * @Author: ${author}
+ * @Date: ${date}
+ * @Description:
+ */
+public class ${functionName}Fragment
+        extends BaseMvpFragment<${functionName}Contract.View, ${functionName}Contract.Presenter>
+        implements ${functionName}Contract.View {
+
+    public static final String TAG = ${functionName}Fragment.class.getSimpleName();
+
+    /**
+     * ———————————————— ↓↓↓↓ BaseMvpFragment code ↓↓↓↓ ————————————————
+     */
+    @Override
+    public String getFragmentTag() {
+        return TAG;
+    }
+
+    @Override
+    public ${functionName}Contract.Presenter createPresenter() {
+        return new ${functionName}Presenter();
+    }
+
+
+
+    /**
+     * ———————————————— ↓↓↓↓ Lifecycle code ↓↓↓↓ ————————————————
+     */
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle
+            savedInstanceState) {
+        return super.onCreateView(inflater, container, savedInstanceState);
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+    }
+
+    /**
+     * ———————————————— ↓↓↓↓ MvpView code ↓↓↓↓ ————————————————
+     */
+
+    @Override
+    public void showLoading() {
+        if (isAdded()) {
+            getBaseActivity().showLoadingDialog(true);
+        }
+    }
+
+    @Override
+    public void dismissLoading() {
+        if (isAdded()) {
+            getBaseActivity().dismissLoadingDialog();
+        }
+    }
+
+    @Override
+    public void showError(String errMes) {
+
+    }
+
+    @Override
+    public boolean isAlived() {
+        return isAdded();
+    }
+
+    /**
+     * ———————————————— ↓↓↓↓ ${functionName}Fragment.View code ↓↓↓↓ ————————————————
+     */
+
+}

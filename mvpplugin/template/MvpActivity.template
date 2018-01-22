@@ -1,0 +1,84 @@
+package ${applicaitionId}.${packageName}.activity;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+
+import ${applicaitionId}.mvpbase.BaseMvpActivity;
+import ${applicaitionId}.${packageName}.contract.${functionName}Contract;
+import ${applicaitionId}.${packageName}.presenter.${functionName}Presenter;
+
+/**
+ * @Author: ${author}
+ * @Date: ${date}
+ * @Description:
+ */
+public class ${functionName}Activity extends BaseMvpActivity<${functionName}Contract.View,
+        ${functionName}Contract.Presenter> implements ${functionName}Contract.View {
+
+    /**
+     * ———————————————— ↓↓↓↓ BaseMvpActivity code ↓↓↓↓ ————————————————
+     */
+
+    @Override
+    public int getResourceId() {
+        return 0;
+    }
+
+    @Override
+    public void initViews() {
+
+    }
+
+    @Override
+    public ${functionName}Contract.Presenter createPresenter() {
+        return new ${functionName}Presenter();
+    }
+
+    /**
+     * ———————————————— ↓↓↓↓ Lifecycle code ↓↓↓↓ ————————————————
+     */
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+    /**
+     * ———————————————— ↓↓↓↓ MvpView code ↓↓↓↓ ————————————————
+     */
+
+    @Override
+    public void showError(String errMes) {
+
+    }
+
+    @Override
+    public void showLoading() {
+        showLoadingDialog(true);
+    }
+
+    @Override
+    public void dismissLoading() {
+        dismissLoadingDialog();
+    }
+
+    @Override
+    public Context getContext() {
+        return this;
+    }
+
+    @Override
+    public boolean isAlived() {
+        return !isFinishing();
+    }
+
+    /**
+    * ———————————————— ↓↓↓↓ ${functionName}Activity.View code ↓↓↓↓ ————————————————
+    */
+}
