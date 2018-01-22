@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.widget;
+package merlin.yx.com.common.widget;
 
 
 import android.content.Context;
@@ -15,7 +15,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.widget.Button;
 
-import com.laoyuegou.android.lib.R;
+import merlin.yx.com.common.R;
 
 
 /**

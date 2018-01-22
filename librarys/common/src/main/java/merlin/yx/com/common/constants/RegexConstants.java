@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.constants;
+package merlin.yx.com.common.constants;
 
 /**
  * <pre>

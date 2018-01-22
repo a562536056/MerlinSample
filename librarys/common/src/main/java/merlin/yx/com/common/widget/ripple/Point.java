@@ -13,7 +13,7 @@
  *     See the License for the specific language governing permissions and
  *     limitations under the License.
  */
-package com.laoyuegou.android.lib.widget.ripple;
+package merlin.yx.com.common.widget.ripple;
 
 import android.os.Parcel;
 import android.os.Parcelable;

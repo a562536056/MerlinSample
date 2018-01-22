@@ -1,8 +1,8 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 
 
-import com.laoyuegou.android.lib.constants.TimeConstants;
+import merlin.yx.com.common.constants.TimeConstants;
 
 import java.text.DateFormat;
 import java.text.ParseException;

@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.mvp.basemvps;
+package merlin.yx.com.common.mvp.basemvps;
 
 import android.content.Context;
 

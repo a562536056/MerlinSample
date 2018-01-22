@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

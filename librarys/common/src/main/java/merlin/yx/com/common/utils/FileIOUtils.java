@@ -1,8 +1,8 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 
 
-import com.laoyuegou.android.lib.constants.MemoryConstants;
+import merlin.yx.com.common.constants.MemoryConstants;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;

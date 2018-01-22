@@ -1,9 +1,10 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 import android.annotation.SuppressLint;
 
 
-import com.laoyuegou.android.lib.constants.MemoryConstants;
+import merlin.yx.com.common.constants.MemoryConstants;
+import merlin.yx.com.common.utils.FileIOUtils;
 
 import java.io.BufferedInputStream;
 import java.io.File;

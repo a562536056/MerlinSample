@@ -1,10 +1,10 @@
-package com.laoyuegou.android.lib.mvp;
+package merlin.yx.com.common.mvp;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import com.laoyuegou.android.lib.mvp.basemvps.BaseMvpPresenter;
+import merlin.yx.com.common.mvp.basemvps.BaseMvpPresenter;
 import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
 
 import java.util.ArrayList;

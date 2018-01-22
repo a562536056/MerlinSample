@@ -1,8 +1,8 @@
-package com.laoyuegou.android.lib.mvp;
+package merlin.yx.com.common.mvp;
 
 import android.support.v4.app.Fragment;
 
-import com.laoyuegou.android.lib.mvp.basemvps.BaseMvpPresenter;
+import merlin.yx.com.common.mvp.basemvps.BaseMvpPresenter;
 
 import java.util.ArrayList;
 import java.util.Collections;

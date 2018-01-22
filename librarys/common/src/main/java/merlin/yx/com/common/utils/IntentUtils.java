@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -11,7 +11,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 
-import com.laoyuegou.android.lib.R;
+import merlin.yx.com.common.R;
 
 import java.io.File;
 

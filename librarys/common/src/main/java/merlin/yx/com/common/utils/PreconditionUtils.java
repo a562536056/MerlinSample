@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 import android.os.Build;
 import android.util.SparseArray;

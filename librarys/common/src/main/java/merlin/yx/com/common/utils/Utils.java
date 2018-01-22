@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -10,7 +10,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.View;
 
-import com.laoyuegou.android.lib.widget.ripple.Ripple;
+import merlin.yx.com.common.widget.ripple.Ripple;
 
 
 /**

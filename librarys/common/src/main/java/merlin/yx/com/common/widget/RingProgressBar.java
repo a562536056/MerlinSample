@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.widget;
+package merlin.yx.com.common.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.laoyuegou.android.lib.R;
+import merlin.yx.com.common.R;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 import android.animation.Animator;
 import android.animation.Keyframe;
@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 
-import com.laoyuegou.android.lib.R;
+import merlin.yx.com.common.R;
 
 import java.lang.ref.WeakReference;
 

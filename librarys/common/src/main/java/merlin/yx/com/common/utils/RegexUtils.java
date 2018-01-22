@@ -1,8 +1,8 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 
 
-import com.laoyuegou.android.lib.constants.RegexConstants;
+import merlin.yx.com.common.constants.RegexConstants;
 
 import java.util.ArrayList;
 import java.util.List;

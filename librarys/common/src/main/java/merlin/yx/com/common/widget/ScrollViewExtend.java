@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.widget;
+package merlin.yx.com.common.widget;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.animation.TranslateAnimation;
 import android.widget.ScrollView;
 
-import com.laoyuegou.android.lib.constants.GlobalConstants;
-import com.laoyuegou.android.lib.utils.DisplayUtils;
+import merlin.yx.com.common.constants.GlobalConstants;
+import merlin.yx.com.common.utils.DisplayUtils;
 
 
 /**

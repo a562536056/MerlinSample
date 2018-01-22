@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.mvp;
+package merlin.yx.com.common.mvp;
 
 import android.content.Context;
 

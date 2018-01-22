@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

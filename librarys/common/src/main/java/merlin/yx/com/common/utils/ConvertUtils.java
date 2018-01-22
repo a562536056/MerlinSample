@@ -1,4 +1,4 @@
-package com.laoyuegou.android.lib.utils;
+package merlin.yx.com.common.utils;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
@@ -10,8 +10,8 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.laoyuegou.android.lib.constants.MemoryConstants;
-import com.laoyuegou.android.lib.constants.TimeConstants;
+import merlin.yx.com.common.constants.MemoryConstants;
+import merlin.yx.com.common.constants.TimeConstants;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
